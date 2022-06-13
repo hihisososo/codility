@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class Solution {
+class BinaryGap {
 
   public static void main(String[] args) {
     int N = 4;
-    System.out.println(new Solution().solution(1041));
+    System.out.println(new BinaryGap().solution(1041));
   }
 
   public int solution(int N) {
