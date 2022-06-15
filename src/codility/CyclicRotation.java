@@ -2,11 +2,11 @@ package codility;
 
 import java.util.Arrays;
 
-class Solution {
+class CyclicRotation {
     public static void main(String[] args) {
         int[] A = new int[]{3, 8, 9, 7, 6};
         int k = 20;
-        System.out.println(Arrays.toString(new Solution().solution(A, k)));
+        System.out.println(Arrays.toString(new CyclicRotation().solution(A, k)));
     }
 
     public int[] solution(int[] A, int K) {

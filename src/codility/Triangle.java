@@ -2,11 +2,11 @@ package codility;
 
 import java.util.Arrays;
 
-public class Solution {
+public class Triangle {
 
   public static void main(String[] args) {
     int[] A = new int[]{10, 50,5,1};
-    System.out.println(new Solution().solution(A));
+    System.out.println(new Triangle().solution(A));
   }
 
   public int solution(int[] A) {
